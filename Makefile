@@ -7,4 +7,4 @@ build:
 
 archive:
 	7z a out/main
-	mv out/main.7z .
+	mv out/main.7z build.7z
