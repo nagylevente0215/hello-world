@@ -6,5 +6,5 @@ build:
 	g++ src/main.cpp -o out/main
 
 archive:
-	7z a out/main
-	mv out/main.7z build.7z
+	cd out;	7z a main.7z .
+	mv out/main.7z data.7z
